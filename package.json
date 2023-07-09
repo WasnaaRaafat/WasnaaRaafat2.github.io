@@ -21,6 +21,7 @@
   "homepage": "https://gitname.WasnaaRaafat.github.io/react-gh-pages",
   "private": true,
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "parcel": "^2.6.2"
   },
   "dependencies": {

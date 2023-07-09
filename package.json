@@ -5,11 +5,11 @@
   "description": "",
   "scripts": {
     "start": "parcel index.html --open",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "clean": "rm -rf dist/*",
     "build:parcel": "parcel build src/index.html --no-content-hash --no-source-maps --public-url ./",
-    "build": "npm run clean && npm run build:parcel",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "build": "npm run clean && npm run build:parcel"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   "keywords": [],
   "author": "Codrops",
   "license": "MIT",
-  "homepage": "https://gitname.WasnaaRaafat.github.io/react-gh-pages",
+  "homepage": "http://WasnaaRaafat.github.io/WasnaaRaafat.github.io",
   "private": true,
   "devDependencies": {
     "gh-pages": "^5.0.0",
